@@ -107,4 +107,10 @@ The simulator script `mini_virtual_ecu/simulator/engine_simulation.py` accepts t
   - SocketCAN interface name to use when `--vcan` is passed (e.g., `vcan0`, `can0`).
 
 Note: currently the parsed `--can-iface` value is defined by the CLI but the running code uses a local `can_iface` variable set to `'vcan0'`. I can patch the simulator to honor `--can-iface` if you want — it is a quick change.
+##Screenshots: 
+1) Simple Simulation Graph via matplotlib: 
+<img width="1920" height="1080" alt="Screenshot_2025-10-07_16_00_21" src="https://github.com/user-attachments/assets/5f3b0dcb-7adb-46f4-8998-ddd48e378351" />
+2) DTCs and Events Data: 
+<img width="1920" height="1080" alt="Screenshot_2025-10-07_16_00_32" src="https://github.com/user-attachments/assets/6479a7cc-701b-48ed-8fa8-9e4389f2a5a0" />
+
 
